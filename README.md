@@ -7,5 +7,9 @@ The solution will be used to implement new services and changing pre-existing on
 #### Objectives
 1. Decrease the churn rate 
 2. Increase Profitability
-
+#### How
+develop focused customer retention programs.
+#### Measure of Peformance
 We're going to use *precision* as the measure of performance once understand well why do the customers churn is very important
+
+# The Data 
