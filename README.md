@@ -8,4 +8,4 @@ The solution will be used to implement new services and changing pre-existing on
 1. Decrease the churn rate 
 2. Increase Profitability
 
-We're going to use *precision* as the mean measure of performance once understand well why do the customers churn is very important
+We're going to use *precision* as the measure of performance once understand well why do the customers churn is very important
