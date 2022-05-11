@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+   <title> Churn Model</title>
+</head>
+<body class="body">
+   <br>
+    <head>
+        <div style="background-image: url('../static/images/telco_image.png')">
+            <h1 style="text-align:center; margin-top: 2cm; padding: 3cm; font-size: 5cm;">Telco Churn Model</h1>
+        </div>
+    </head>
+   
+
+
+<br> <br> <br>
+    <form method="POST">
+        <div>
+            <div style="padding-left:5cm" >
+                
+                <div class="form-floating" style="display:inline-block;">
+                    <select class="form-select" Saria-label="Floating label select example" name="gender">
+                    <option selected>Select Gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    </select>
+                    <label for="gender">Gender</label>
+                </div>   
+            
+                <div class="form-floating" style="display:inline-block; padding-left: 4cm;">
+                    <select class="form-select" Saria-label="Floating label select example" name="Senior Citizen">
+                    <option selected>Is Senior Citizen</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                    </select>
+                    <label for="Senior Citizen" style="padding-left: 5.2cm;">Senior Citizens</label>
+                </div>  
+
+                <div class="form-floating" style="display:inline-block; padding-left: 4cm;">
+                    <select class="form-select" Saria-label="Floating label select example" name="Partner">
+                    <option selected>Has Partner?</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                    </select>
+                    <label for="Partner" style="padding-left: 5.2cm;">Partner</label>
+                </div> 
+
+                <div class="form-floating" style="display:inline-block; padding-left: 4cm;">
+                    <select class="form-select" Saria-label="Floating label select example" name="Dependents">
+                    <option selected>Has Dependents</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                    </select>
+                    <label for="Senior Citizen" style="padding-left: 5.2cm;">Dependents</label>
+                </div> 
+
+                <div class="form-floating" style="display:inline-block; padding-left: 4cm;">
+                    <select class="form-select" Saria-label="Floating label select example" name="Phone Service">
+                    <option selected>Has Phone Service?</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                    </select>
+                    <label for="Phone Service" style="padding-left: 5.2cm;">Phone Service</label>
+                </div> 
+
+            </div>
+            
+            
+            <br>    
+
+            <div style="padding-left:5cm">
+
+                <div class="form-floating" style="display:inline-block;">
+                    <select class="form-select" Saria-label="Floating label select example" name="Multiple Lines">
+                    <option selected>Has Multiple Lines?</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                    <option value="No phone service">No Phone Service</option>
+                    </select>
+                    <label for="Multiple Lines">Multiple Lines</label>
+                </div> 
+
+                <div class="form-floating" style="display:inline-block; padding-left: 3cm;">
+                    <select class="form-select" Saria-label="Floating label select example" name="Internet Service">
+                    <option selected>Select Internet Service?</option>
+                    <option value="DSL">DSL</option>
+                    <option value="Fiber optic">Fiber Optic</option>
+                    <option value="No">No Internet Service</option>
+                    </select>
+                    <label for="Internet Service" style="padding-left: 4.2cm;">Internet Service</label>
+                </div> 
+
+                <div class="form-floating" style="display:inline-block; padding-left: 2.6cm;">
+                    <select class="form-select" Saria-label="Floating label select example" name="Online Security">
+                    <option selected>Has Online Security?</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                    </select>
+                    <label for="Online Security" style="padding-left: 3.8cm;">Online Security</label>
+                </div>
+                
+                <div class="form-floating" style="display:inline-block; padding-left: 2.6cm;">
+                    <select class="form-select" Saria-label="Floating label select example" name="Online Backup">
+                    <option selected>Has Online Backup?</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                    </select>
+                    <label for="Online Backup" style="padding-left: 3.8cm;">Online Backup</label>
+                </div>
+
+                <div class="form-floating" style="display:inline-block; padding-left: 3.3cm;">
+                    <select class="form-select" Saria-label="Floating label select example" name="Device Protection">
+                    <option selected>Has Device Protection?</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                    </select>
+                    <label for="Device Protection" style="padding-left: 4cm;">Device Protection</label>
+                </div>
+
+            </div>    
+
+                <br>
+
+            <div style="padding-left:5cm">
+                <div class="form-floating" style="display:inline-block;">
+                    <select class="form-select" Saria-label="Floating label select example" name="Tech Support">
+                    <option selected>Has Tech Support?</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                    </select>
+                    <label for="Tech Support">Tech Support</label>
+                </div>
+
+                <div class="form-floating" style="display:inline-block; padding-left: 3.1cm;">
+                    <select class="form-select" Saria-label="Floating label select example" name="StreamingTV">
+                    <option selected>Has StreamingTV?</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                    </select>
+                    <label for="StreamingTV" style="padding-left: 4cm;">StreamingTV</label>
+                </div>
+
+                <div class="form-floating" style="display:inline-block; padding-left: 3.5cm;">
+                    <select class="form-select" Saria-label="Floating label select example" name="StreamingMovies">
+                    <option selected>Has StreamingMovies?</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                    </select>
+                    <label for="StreamingMovies" style="padding-left: 4.5cm;">StreamingMovies</label>
+                </div>
+
+                <div class="form-floating" style="display:inline-block; padding-left: 2.3cm;">
+                    <select class="form-select" Saria-label="Floating label select example" name="Paperless Billing">
+                    <option selected>Is Paperless Billing    ?</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                    </select>
+                    <label for="Paperless Billing" style="padding-left: 3cm;">Paperless Billing</label>
+                </div>
+
+                <div class="form-floating" style="display:inline-block; padding-left: 3.3cm;">
+                    <select class="form-select" Saria-label="Floating label select example" name="Contract Type">
+                    <option selected>Type of Contract </option>
+                    <option value="Month-to-month">Month-to-month</option>
+                    <option value="One year">One year</option>
+                    <option value="Two year">Two year</option>
+                    </select>
+                    <label for="Contract Type" style="padding-left: 4.2cm;">Contract Type</label>
+                </div>
+
+            </div>
+
+            <br>
+
+            <div style="padding-left:5cm">
+
+                <div class="form-floating" style="display:inline-block;">
+                    <select class="form-select" Saria-label="Floating label select example" name="Payment Method">
+                    <option selected>Payment Method Used</option>
+                    <option value="Electronic check">Electronic check</option>
+                    <option value="Bank transfer (automatic)">Bank transfer (automatic)</option>
+                    <option value="Credit card (automatic)">Credit card (automatic)</option>
+                    <option value="Mailed check">Mailed check</option>
+                    </select>
+                    <label for="Payment Method">Payment Method</label>
+                </div>
+
+                <div class="form-group" style="display:inline-block; padding-left: 1.8cm;">
+                    <label for="tenure" style="color:white">Tenure</label>
+                    <input type="text" class="form-control" name="tenure"  placeholder="Enter Tenure in Months">
+                </div>
+
+                <div class="form-group" style="display:inline-block; padding-left: 2.8cm;">
+                    <label for="Monthly Charges" style="color:white">Monthly Charges</label>
+                    <input type="text" class="form-control" name="Monthly Charges"  placeholder="Enter Monthly Charges">
+                </div>
+
+            </div>
+            
+         
+        </div>    
+        
+        <br><br>
+        
+        <div class="d-grid gap-2 col-6 mx-auto" style="margin-left:23cm; margin-bottom: 2cm;">
+            <button class="btn btn-primary" type="submit" style="background-color:red">Submit</button>
+        </div>
+
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+   
+   <style>
+        .body {
+  background-image: linear-gradient(red, blue);
+}
+    </style>
+</body>
+</html>
