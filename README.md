@@ -21,6 +21,6 @@ We are going to use Telco Customer Churn data available on kaggle under the lice
 - Demographic info about customers – gender, age range, and if they have partners and dependents
 
 # Tecnologies Used
-1. Python: Pandas, Numpy, Scikit-Learn, Seaborn, Matplotlib
+1. Python: Pandas, Numpy, Scikit-Learn, Seaborn, Matplotlib, Flask
 2. Jupyter Notebook
 3. Power Point
