@@ -27,7 +27,7 @@ We are going to use Telco Customer Churn data available on kaggle under the lice
 3. Power Point
 
 # Exploratory Data Analysis 
-<div>
+<div style="display: inline-flex;">
 ![Has Dependents](https://user-images.githubusercontent.com/90560755/168038557-3c3ab831-d46e-4f9b-b17a-99dd20120db0.png)
 ![Has Partner](https://user-images.githubusercontent.com/90560755/168038573-22f8ca19-2a14-4bea-8ee4-8ef334897a61.png)
 </div>  
