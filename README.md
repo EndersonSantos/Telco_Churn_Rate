@@ -27,8 +27,11 @@ We are going to use Telco Customer Churn data available on kaggle under the lice
 3. Power Point
 
 # Exploratory Data Analysis 
+<div>
 ![Has Dependents](https://user-images.githubusercontent.com/90560755/168038557-3c3ab831-d46e-4f9b-b17a-99dd20120db0.png)
 ![Has Partner](https://user-images.githubusercontent.com/90560755/168038573-22f8ca19-2a14-4bea-8ee4-8ef334897a61.png)
+</div>  
+
 ![Contract Type Churn Rate](https://user-images.githubusercontent.com/90560755/168038635-5fb11373-3174-42fb-b166-4bfb6c734efa.png)
 ![Total Charges vs Tenure hued by Contract Type](https://user-images.githubusercontent.com/90560755/168038671-f36e8b0d-1020-4f6b-be21-2b461ed91858.png)
 ![Eletronic Churn](https://user-images.githubusercontent.com/90560755/168038679-f7071892-bba4-40b8-8ec1-63b75284eb7e.png)
