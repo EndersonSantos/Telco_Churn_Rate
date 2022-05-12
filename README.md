@@ -44,14 +44,14 @@ We are going to use Telco Customer Churn data available on kaggle under the lice
 - Single clients without any dependent also tend to churn more
 
 ## Model Building
-Logistic Regression - 65% of precision
-Random Forest - 71% of precision 
-Support Vector Machines - 74% of precision
+<b>Logistic Regression</b> - 65% of precision <br>
+<b>Random Forest</b> - 71% of precision <br>
+<b>Support Vector Machines</b> - 74% of precision <br>
 
 So we choose the SVM model
 the model has 71% of precision on the testset
 
 ## Flask App
 ![Churn Mode](https://user-images.githubusercontent.com/90560755/168040882-8ac77b96-362c-488e-9c97-db2a8dc314ed.png)
-![Churn Model ](https://user-images.githubusercontent.com/90560755/168040891-b97a311c-77eb-40cf-8975-9f620798b92c.png)
+![Churn Model ](https://user-images.githubusercontent.com/90560755/168040891-b97a311c-77eb-40cf-8975-9f620798b92c.png) <br>
 We give the information about the customer and the model will predict if the customer will churn
