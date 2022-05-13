@@ -11,7 +11,7 @@ The solution will be used to implement new services and changing pre-existing on
 Creating an Application that predicts if a customer will churn <br>
 Developing focused customer retention programs.
 #### Measure of Peformance
-We're going to use *precision* as the measure of performance once understand who will indeed churn is very important to oritent our retention programs for those clients
+We're going to use *precision* as the measure of performance once understanding who will indeed churn is very important to oritent our retention programs for those clients
 
 ## The Data 
 We are going to use Telco Customer Churn data available on kaggle under the licence of IBM Sample Data Sets. The data can be found [here](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
