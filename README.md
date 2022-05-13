@@ -8,7 +8,7 @@ The solution will be used to implement new services and changing pre-existing on
 1. Decrease the churn rate 
 2. Increase Profitability
 #### How
-Creating an Application that predicts if a customer will churn
+Creating an Application that predicts if a customer will churn <br>
 Developing focused customer retention programs.
 #### Measure of Peformance
 We're going to use *precision* as the measure of performance once understand who will indeed churn is very important to oritent our retention programs for those clients
